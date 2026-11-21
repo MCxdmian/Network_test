@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <AssemblyName>network_test</AssemblyName>
+    <AssemblyTitle>网络测试工具</AssemblyTitle>
+    <Product>网络测试工具</Product>
+    <Description>网络状态、测速与连接检测工具</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 供窗口标题栏/WPF 界面加载图标使用（ApplicationIcon 只写入 exe 的 Win32 图标资源） -->
+    <Resource Include="app.ico" />
+  </ItemGroup>
+
+</Project>
